@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'BlocksKit'
-  s.version               = '2.2.6'
+  s.version               = '2.2.7'
   s.license               = 'MIT'
   s.summary               = 'The Objective-C block utilities you always wish you had.'
   s.homepage              = 'https://zwaldowski.github.io/BlocksKit'
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'DynamicDelegate' do |ss|
-    ss.source_files = 'BlocksKit/DynamicDelegate/*.{h,m}', 'BlocksKit/DynamicDelegate/Foundation/*.{h,m}'
+    ss.source_files = 'BlocksKit/DynamicDelegate/*.{h,m}', 'BlocksKit/DynamicDelegate/Foundation/*.{h,m}', "BlocksKit/BKDefines.h"
   end
 
   s.subspec 'MessageUI' do |ss|

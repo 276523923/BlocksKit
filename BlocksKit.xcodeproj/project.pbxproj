@@ -104,11 +104,6 @@
 		DB4CA4B11B3A6657004B70F8 /* NSCache+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA47F1B3A6656004B70F8 /* NSCache+BlocksKit.m */; };
 		DB4CA4B21B3A6657004B70F8 /* NSCache+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA47F1B3A6656004B70F8 /* NSCache+BlocksKit.m */; };
 		DB4CA4B31B3A6657004B70F8 /* NSCache+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA47F1B3A6656004B70F8 /* NSCache+BlocksKit.m */; };
-		DB4CA4B41B3A6657004B70F8 /* NSURLConnection+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4801B3A6656004B70F8 /* NSURLConnection+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB4CA4B51B3A6657004B70F8 /* NSURLConnection+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4801B3A6656004B70F8 /* NSURLConnection+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB4CA4B61B3A6657004B70F8 /* NSURLConnection+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA4811B3A6656004B70F8 /* NSURLConnection+BlocksKit.m */; };
-		DB4CA4B71B3A6657004B70F8 /* NSURLConnection+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA4811B3A6656004B70F8 /* NSURLConnection+BlocksKit.m */; };
-		DB4CA4B81B3A6657004B70F8 /* NSURLConnection+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA4811B3A6656004B70F8 /* NSURLConnection+BlocksKit.m */; };
 		DB4CA4B91B3A6657004B70F8 /* NSObject+A2BlockDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4821B3A6656004B70F8 /* NSObject+A2BlockDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4CA4BA1B3A6657004B70F8 /* NSObject+A2BlockDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4821B3A6656004B70F8 /* NSObject+A2BlockDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4CA4BB1B3A6657004B70F8 /* NSObject+A2BlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA4831B3A6656004B70F8 /* NSObject+A2BlockDelegate.m */; };
@@ -260,7 +255,6 @@
 		DB5C6C6A1C5200B200778E5F /* A2BlockInvocation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB4CA4791B3A6656004B70F8 /* A2BlockInvocation.h */; };
 		DB5C6C6B1C5200B200778E5F /* A2DynamicDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB4CA47B1B3A6656004B70F8 /* A2DynamicDelegate.h */; };
 		DB5C6C6C1C5200B200778E5F /* NSCache+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB4CA47E1B3A6656004B70F8 /* NSCache+BlocksKit.h */; };
-		DB5C6C6D1C5200B200778E5F /* NSURLConnection+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB4CA4801B3A6656004B70F8 /* NSURLConnection+BlocksKit.h */; };
 		DB5C6C6E1C5200B200778E5F /* NSObject+A2BlockDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB4CA4821B3A6656004B70F8 /* NSObject+A2BlockDelegate.h */; };
 		DB5C6C6F1C5200B200778E5F /* NSObject+A2DynamicDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB4CA4841B3A6656004B70F8 /* NSObject+A2DynamicDelegate.h */; };
 		DB5C6C701C5200B200778E5F /* MFMailComposeViewController+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB4CA4871B3A6657004B70F8 /* MFMailComposeViewController+BlocksKit.h */; };
@@ -354,7 +348,6 @@
 				DB5C6C6A1C5200B200778E5F /* A2BlockInvocation.h in CopyFiles */,
 				DB5C6C6B1C5200B200778E5F /* A2DynamicDelegate.h in CopyFiles */,
 				DB5C6C6C1C5200B200778E5F /* NSCache+BlocksKit.h in CopyFiles */,
-				DB5C6C6D1C5200B200778E5F /* NSURLConnection+BlocksKit.h in CopyFiles */,
 				DB5C6C6E1C5200B200778E5F /* NSObject+A2BlockDelegate.h in CopyFiles */,
 				DB5C6C6F1C5200B200778E5F /* NSObject+A2DynamicDelegate.h in CopyFiles */,
 				DB5C6C701C5200B200778E5F /* MFMailComposeViewController+BlocksKit.h in CopyFiles */,
@@ -427,8 +420,6 @@
 		DB4CA47C1B3A6656004B70F8 /* A2DynamicDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A2DynamicDelegate.m; sourceTree = "<group>"; };
 		DB4CA47E1B3A6656004B70F8 /* NSCache+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCache+BlocksKit.h"; sourceTree = "<group>"; };
 		DB4CA47F1B3A6656004B70F8 /* NSCache+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCache+BlocksKit.m"; sourceTree = "<group>"; };
-		DB4CA4801B3A6656004B70F8 /* NSURLConnection+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+BlocksKit.h"; sourceTree = "<group>"; };
-		DB4CA4811B3A6656004B70F8 /* NSURLConnection+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+BlocksKit.m"; sourceTree = "<group>"; };
 		DB4CA4821B3A6656004B70F8 /* NSObject+A2BlockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+A2BlockDelegate.h"; sourceTree = "<group>"; };
 		DB4CA4831B3A6656004B70F8 /* NSObject+A2BlockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+A2BlockDelegate.m"; sourceTree = "<group>"; };
 		DB4CA4841B3A6656004B70F8 /* NSObject+A2DynamicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+A2DynamicDelegate.h"; sourceTree = "<group>"; };
@@ -644,8 +635,6 @@
 			children = (
 				DB4CA47E1B3A6656004B70F8 /* NSCache+BlocksKit.h */,
 				DB4CA47F1B3A6656004B70F8 /* NSCache+BlocksKit.m */,
-				DB4CA4801B3A6656004B70F8 /* NSURLConnection+BlocksKit.h */,
-				DB4CA4811B3A6656004B70F8 /* NSURLConnection+BlocksKit.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -910,7 +899,6 @@
 				DB4CA4B01B3A6657004B70F8 /* NSCache+BlocksKit.h in Headers */,
 				DB4CA4741B3A662A004B70F8 /* NSTimer+BlocksKit.h in Headers */,
 				DB4CA4EC1B3A6657004B70F8 /* UIImage+BlocksKit.h in Headers */,
-				DB4CA4B51B3A6657004B70F8 /* NSURLConnection+BlocksKit.h in Headers */,
 				DB4CA4A61B3A6657004B70F8 /* A2BlockInvocation.h in Headers */,
 				DB4CA5001B3A6657004B70F8 /* UIView+BlocksKit.h in Headers */,
 				DB4CA4D31B3A6657004B70F8 /* UIActionSheet+BlocksKit.h in Headers */,
@@ -934,7 +922,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB4CA4B41B3A6657004B70F8 /* NSURLConnection+BlocksKit.h in Headers */,
 				DB4CA4641B3A662A004B70F8 /* NSObject+BKBlockObservation.h in Headers */,
 				DB4CA4691B3A662A004B70F8 /* NSOrderedSet+BlocksKit.h in Headers */,
 				DB4CA4371B3A662A004B70F8 /* NSInvocation+BlocksKit.h in Headers */,
@@ -1185,7 +1172,6 @@
 				DB4CA4C61B3A6657004B70F8 /* MFMailComposeViewController+BlocksKit.m in Sources */,
 				DB4CA4491B3A662A004B70F8 /* NSMutableDictionary+BlocksKit.m in Sources */,
 				DB4CA4301B3A662A004B70F8 /* NSDictionary+BlocksKit.m in Sources */,
-				DB4CA4B71B3A6657004B70F8 /* NSURLConnection+BlocksKit.m in Sources */,
 				DB4CA4AD1B3A6657004B70F8 /* A2DynamicDelegate.m in Sources */,
 				DB4CA4BC1B3A6657004B70F8 /* NSObject+A2BlockDelegate.m in Sources */,
 				DB4CA4D51B3A6657004B70F8 /* UIActionSheet+BlocksKit.m in Sources */,
@@ -1264,7 +1250,6 @@
 				DB4CA42A1B3A662A004B70F8 /* NSArray+BlocksKit.m in Sources */,
 				DB4CA4481B3A662A004B70F8 /* NSMutableDictionary+BlocksKit.m in Sources */,
 				DB4CA42F1B3A662A004B70F8 /* NSDictionary+BlocksKit.m in Sources */,
-				DB4CA4B61B3A6657004B70F8 /* NSURLConnection+BlocksKit.m in Sources */,
 				DB4CA4AC1B3A6657004B70F8 /* A2DynamicDelegate.m in Sources */,
 				DB4CA4BB1B3A6657004B70F8 /* NSObject+A2BlockDelegate.m in Sources */,
 				DB4CA4611B3A662A004B70F8 /* NSObject+BKBlockExecution.m in Sources */,
@@ -1320,7 +1305,6 @@
 				DB4CA4EF1B3A6657004B70F8 /* UIImage+BlocksKit.m in Sources */,
 				DB4CA4311B3A662A004B70F8 /* NSDictionary+BlocksKit.m in Sources */,
 				DB4CA44F1B3A662A004B70F8 /* NSMutableIndexSet+BlocksKit.m in Sources */,
-				DB4CA4B81B3A6657004B70F8 /* NSURLConnection+BlocksKit.m in Sources */,
 				DB4CA45E1B3A662A004B70F8 /* NSObject+BKAssociatedObjects.m in Sources */,
 				DB4CA4AE1B3A6657004B70F8 /* A2DynamicDelegate.m in Sources */,
 				DB4CA43B1B3A662A004B70F8 /* NSInvocation+BlocksKit.m in Sources */,
