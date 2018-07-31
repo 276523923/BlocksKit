@@ -378,6 +378,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A764091421101519007DF377 /* BlocksKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BlocksKit.podspec; sourceTree = "<group>"; };
 		DB4CA3F91B3A624B004B70F8 /* Common-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Common-Framework.xcconfig"; sourceTree = "<group>"; };
 		DB4CA3FA1B3A624B004B70F8 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
 		DB4CA3FB1B3A624B004B70F8 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
@@ -802,6 +803,7 @@
 		DB9B960E1B3A52A700940D20 = {
 			isa = PBXGroup;
 			children = (
+				A764091421101519007DF377 /* BlocksKit.podspec */,
 				DB9B961A1B3A52A700940D20 /* BlocksKit */,
 				DB9B96261B3A52A700940D20 /* Tests */,
 				DBBDD2281B3A5782008909B0 /* Configurations */,

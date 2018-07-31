@@ -329,6 +329,9 @@ typedef A2DynamicDelegate *(^A2GetDynamicDelegateBlock)(NSObject *, BOOL);
 
 	IMP setterImplementation = imp_implementationWithBlock(^(NSObject *delegatingObject, id delegate) {
 		A2DynamicDelegate *dynamicDelegate = getDynamicDelegate(delegatingObject, protocol, infoAsPtr, YES);
+        if ([delegate isKindOfClass:NSClassFromString(@"UIEditUserWordController")]) {
+            delegate = nil;
+        }
 		if ([delegate isEqual:dynamicDelegate]) {
 			delegate = nil;
 		}
