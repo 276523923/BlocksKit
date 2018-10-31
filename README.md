@@ -1,3 +1,9 @@
+
+修复 UIEditUserWordController 崩溃的bug
+
+Bug fixing UIEditUserWordController crash
+
+
 [BlocksKit](https://zwaldowski.github.io/BlocksKit)
 ===================================================
 
